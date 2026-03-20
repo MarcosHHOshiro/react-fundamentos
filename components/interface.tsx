@@ -13,10 +13,10 @@ export function Botao() {
     )
 }
 
-export function Cabecalho() {
+export function Cabecalho(props: { titulo: string }) {
     return (
         <div className="bg-blue-700">
-            <h1>Cabecalho</h1>
+            <h1>{props.titulo}</h1>
             <p>acomodacoa | exp </p>
         </div>
     )
